@@ -4291,7 +4291,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
-@media (min-width: 576px) {
+@media (min-width: 576px) {  
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4327,6 +4327,12 @@ textarea.form-control-lg {
   .card-group > .card:not(:first-child) .card-img-bottom,
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .card img {
+      display: none;
   }
 }
 
